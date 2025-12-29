@@ -9,7 +9,7 @@ This repository implements an omnidirectional perception system using **three fi
 
 ---
 
-## 🌟 Key Contributions
+## I.Key Contributions
 
 * **Cost-Effective Sensing Solution**: Achieves an average localization error of **~11.5 cm** (within a 20m radius). Sensor costs are reduced by **70%–90%** compared to traditional LiDAR or Depth Camera solutions.
 * **360° Seamless Perception**: Synchronizes three fisheye streams into a unified coordinate system, eliminating blind spots and providing continuous spatial awareness.
@@ -17,7 +17,7 @@ This repository implements an omnidirectional perception system using **three fi
 
 ---
 
-## 🛠 System Architecture & Modules
+## II. System Architecture & Modules
 
 The system is integrated using **ROS1 (Robot Operating System)** to manage real-time data streaming and inter-process communication.
 
@@ -35,7 +35,7 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 
 ---
 
-## 📊 Performance Metrics
+## III. Performance Metrics
 
 | Metric | Performance |
 | :--- | :--- |
@@ -46,7 +46,7 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 
 ---
 
-## 🚀 Getting Started
+## IV Getting Started
 
 ### Prerequisites
 * Ubuntu 20.04
