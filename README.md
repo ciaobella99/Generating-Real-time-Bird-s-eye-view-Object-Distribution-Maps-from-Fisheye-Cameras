@@ -2,7 +2,8 @@
 This repository implements an omnidirectional perception system using **three fisheye cameras**. By performing real-time distortion correction, object detection (YOLOv7), and geometric distance estimation, the system generates a unified 360-degree top-down occupancy map. This research provides a high-precision, low-cost sensing alternative for autonomous mobile platforms in indoor environments.
 
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Place+Your+CARLA+Demo+GIF+Here" width="800">
+  <img width="1964" height="1296" alt="Screenshot from 2025-06-30 16-24-42" src="https://github.com/user-attachments/assets/9279e49f-aa7a-4886-a650-28f43cd52902" />
+
   <br>
   <em>Figure 1: 360° Object Detection and Grid Map Visualization in CARLA 0.9.13</em>
 </p>
