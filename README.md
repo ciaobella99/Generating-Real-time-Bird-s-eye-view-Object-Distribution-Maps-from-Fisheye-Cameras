@@ -45,6 +45,8 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 | **Cost Reduction** | 70% - 90% (vs. LiDAR) |
 | **Field of View** | 360° Omnidirectional |
 
+* **P.S.**:Avg. Distance Error refers to the average error calculated based on the target object’s distance from the camera at different angles and distances.
+
 ---
 
 ## IV Getting Started
