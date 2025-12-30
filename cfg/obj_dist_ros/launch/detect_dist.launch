@@ -1,0 +1,19 @@
+<launch>
+  <!-- 1. 先啟 fisheye 校正（ros_bridge 已有的） -->
+  <include file="$(find fisheye_undistort)/launch/undistort.launch"/>
+
+  <!-- 2. 啟用我們的距離偵測節點 -->
+  <node pkg="obj_dist_ros" type="dis_test.py" name="obj_dist_node" output="screen">
+    <!-- 把原本 argparse 參數改成 rosparam -->
+    
+    <param name="device"    type="string" value="0"/>
+    <param name="weights"      value="/home/ciao/YOLOv7-DeepSORT-Object-Tracking/yolov7.pt"/>
+    <param name="conf_thres"   value="0.25"/>
+    <param name="iou_thres"    value="0.45"/>
+    <param name="camera_height" value="40.0"/>
+    <param name="tile_size"    value="39.5"/>
+    <param name="num_tiles"    value="6"/>
+     <param name="names" value="/home/ciao/YOLOv7-DeepSORT-Object-Tracking/data/coco.names"/>
+  </node>
+</launch>
+
