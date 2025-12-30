@@ -33,7 +33,8 @@ fisheye_undistort/
 ├── launch/
 │   └── undistort.launch           # Launch file for the undistortion node
 └── config/
-    └── params.yaml                # Camera intrinsic parameters
+│    └── params.yaml                # Camera intrinsic parameters
+
 ```
 
 ---
@@ -77,6 +78,14 @@ D: [k1, k2, k3, k4]
 
 width: 1920
 height: 1280
+
+---
+
+## CMake Version Note
+
+After downloading the required CMake package, directly replace
+the default CMake installation with the downloaded version
+before building this package.
 
 ---
 
