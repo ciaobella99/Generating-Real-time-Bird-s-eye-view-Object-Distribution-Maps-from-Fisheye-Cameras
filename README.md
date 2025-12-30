@@ -52,7 +52,7 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 ## IV Getting Started
 
 ### Prerequisites
-* **GPU**: NVIDIA GeForce **RTX 4090** (24GB VRAM)
+* **GPU**: NVIDIA GeForce **GTX 4090** (24GB VRAM)
 * Ubuntu 20.04
 * ROS Noetic
 * **CARLA Simulator 0.9.13**
