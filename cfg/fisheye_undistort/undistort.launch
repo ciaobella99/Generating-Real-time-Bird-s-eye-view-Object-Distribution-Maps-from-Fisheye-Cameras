@@ -1,0 +1,56 @@
+<launch>
+  <!-- 前鏡頭 group -->
+  <group ns="front">
+    <node pkg="fisheye_undistort"
+          type="fisheye_undistort_node"
+          name="undistort_front"
+          output="screen">
+
+      <!-- 這裡放在 node 裡面、沒有 ns 屬性，會載到 /front/undistort_front/K -->
+      <rosparam command="load"
+                file="$(find fisheye_undistort)/config/front.yaml"/>
+
+      <!-- remap CARLA 串流到 node 私有的 ~/image_raw -->
+      <remap from="~image_raw"        to="/carla/ego_vehicle/fisheye_front/image"/>
+      <!-- remap 校正後輸出到你指定的 topic -->
+      <remap from="~image_rect"       to="/fisheye_front/rectified_image"/>
+      <remap from="~camera_info_rect" to="/fisheye_front/camera_info_rect"/>
+
+    </node>
+  </group>
+
+  <!-- 左鏡頭 group -->
+  <group ns="left">
+    <node pkg="fisheye_undistort"
+          type="fisheye_undistort_node"
+          name="undistort_left"
+          output="screen">
+
+      <rosparam command="load"
+                file="$(find fisheye_undistort)/config/left.yaml"/>
+
+      <remap from="~image_raw"        to="/carla/ego_vehicle/fisheye_back_left/image"/>
+      <remap from="~image_rect"       to="/fisheye_left/rectified_image"/>
+      <remap from="~camera_info_rect" to="/fisheye_left/camera_info_rect"/>
+
+    </node>
+  </group>
+
+  <!-- 右鏡頭 group -->
+  <group ns="right">
+    <node pkg="fisheye_undistort"
+          type="fisheye_undistort_node"
+          name="undistort_right"
+          output="screen">
+
+      <rosparam command="load"
+                file="$(find fisheye_undistort)/config/right.yaml"/>
+
+      <remap from="~image_raw"        to="/carla/ego_vehicle/fisheye_back_right/image"/>
+      <remap from="~image_rect"       to="/fisheye_right/rectified_image"/>
+      <remap from="~camera_info_rect" to="/fisheye_right/camera_info_rect"/>
+
+    </node>
+  </group>
+</launch>
+
