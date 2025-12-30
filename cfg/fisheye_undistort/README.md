@@ -22,6 +22,8 @@ CARLA ROS bridge.
 
 ## Directory Structure
 
+
+```text
 fisheye_undistort/
 ├── CMakeLists.txt                 # Catkin build configuration
 ├── package.xml                    # ROS package manifest
@@ -32,6 +34,7 @@ fisheye_undistort/
 │   └── undistort.launch           # Launch file for the undistortion node
 └── config/
     └── params.yaml                # Camera intrinsic parameters
+```
 
 ---
 
