@@ -1,0 +1,18 @@
+1.b_t.py:主要功能是yolo物件偵測和物件運動狀態分析(Approaching、Moving Away、Stationary)
+2.vanishing_point.py:畫面消失點的偵測
+3.grid.py:依據消失點的位置生成磁磚網格
+
+4.dis_test.py:主程式碼，就是將物件偵測和距離估測的功能結合在一起
+
+這個是在dis_test.py的執行碼:
+!python dis_test.py --weights yolov7.pt --img 640 --source 3m.mp4 --conf 0.5 --device 0  --camera_height 50 --tile_size 47.4 --num_tiles 5
+
+比較重要的是:
+1.--source:輸入檔案格式(mp4.jpg...)
+2.--conf:yolo物件偵測的信心度，越大代表他偵測物件的嚴格程度，所以有時候可以調大，就能去掉很多偵測不完整的東西
+3.--camera_height:相機拍攝設定的高度
+4.--tile_size:生成網格設定的邊長
+5.--num_tiles:生成網格設定的數量
+
+跑出的結果會在"YOLOv7-DeepSORT-Object-Tracking\runs\detect"中
+

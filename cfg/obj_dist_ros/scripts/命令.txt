@@ -1,0 +1,1 @@
+!python dis_test.py --weights yolov7.pt --img 640 --source 3m.mp4 --conf 0.5 --device 0  --camera_height 50 --tile_size 47.4 --num_tiles 5
