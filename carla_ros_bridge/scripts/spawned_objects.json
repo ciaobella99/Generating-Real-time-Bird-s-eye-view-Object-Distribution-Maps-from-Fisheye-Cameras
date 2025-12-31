@@ -1,0 +1,236 @@
+[
+  {
+    "bp_id": "walker.pedestrian.0019",
+    "location": {
+      "x": -126.0,
+      "y": 50.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0016",
+    "location": {
+      "x": -126.0,
+      "y": 48.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0040",
+    "location": {
+      "x": -125.0,
+      "y": 53.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0011",
+    "location": {
+      "x": -125.0,
+      "y": 54.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0031",
+    "location": {
+      "x": -125.0,
+      "y": 55.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0009",
+    "location": {
+      "x": -126.0,
+      "y": 56.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "vehicle.vespa.zx125",
+    "location": {
+      "x": -128.0,
+      "y": 57.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "vehicle.bh.crossbike",
+    "location": {
+      "x": -130.0,
+      "y": 56.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0006",
+    "location": {
+      "x": -131.0,
+      "y": 54.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0048",
+    "location": {
+      "x": -131.0,
+      "y": 53.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "vehicle.vespa.zx125",
+    "location": {
+      "x": -130.0,
+      "y": 50.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0004",
+    "location": {
+      "x": -130.0,
+      "y": 48.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0003",
+    "location": {
+      "x": -124.0,
+      "y": 55.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "vehicle.audi.etron",
+    "location": {
+      "x": -128.0,
+      "y": 73.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 90.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0042",
+    "location": {
+      "x": -125.0,
+      "y": 73.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0027",
+    "location": {
+      "x": -124.0,
+      "y": 63.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0040",
+    "location": {
+      "x": -131.0,
+      "y": 65.0,
+      "z": 1.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  },
+  {
+    "bp_id": "walker.pedestrian.0043",
+    "location": {
+      "x": -120.0,
+      "y": 66.0,
+      "z": 0.0
+    },
+    "rotation": {
+      "pitch": 0.0,
+      "yaw": 0.0,
+      "roll": 0.0
+    }
+  }
+]
