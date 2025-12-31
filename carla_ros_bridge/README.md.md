@@ -4,7 +4,7 @@
 
 ---
 
-## 📦 資料夾放置方式
+## I. 資料夾放置方式
 
 請將本專案中的 **`carla_ros_bridge`** 資料夾 **整個複製** 到你本機的 `carla-ros-bridge` ROS workspace 之中，放置路徑如下：
 
@@ -25,7 +25,7 @@ source devel/setup.bash
 
 ---
 
-## 📂 carla_ros_bridge/scripts 腳本說明
+## II. carla_ros_bridge/scripts 腳本說明
 
 `carla_ros_bridge/scripts` 目錄中包含多個 Python 腳本，主要用於 **Bird’s‑Eye View (BEV) 建構、物件生成、距離估測，以及 Semantic LiDAR Ground Truth 取得**。
 
@@ -74,7 +74,7 @@ carla_ros_bridge/
 
 ---
 
-## ⚠️ 注意事項
+## III. 注意事項
 
 - 本資料夾需搭配 **carla-ros-bridge** 使用，請確認 CARLA 與 ROS 版本相容。
 - 部分腳本需先正確啟動 CARLA world、sensor 與 actor，否則可能無法正常運作。
@@ -82,7 +82,7 @@ carla_ros_bridge/
 
 ---
 
-## 📌 建議用途
+## IV. 建議用途
 
 本模組適合用於：
 - 多感測器（Camera / LiDAR）BEV 建構實驗
