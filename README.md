@@ -76,17 +76,22 @@ The tracking and perception pipeline in this work is adapted and extended for
 fisheye-based BEV projection and distance estimation.
 
 ### Installation
-```bash
-# 1. Clone the repository
-git clone [https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git](https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git)
 
+# 1. Clone the repository
+```bash
+git clone [https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git](https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git)
+```
 # 2. Install Python dependencies (ensure CARLA version matches)
+```bash
 pip install carla==0.9.13
 pip install -r requirements.txt
+```
 
 # 3. Build ROS workspace
+```bash
 catkin_make
 source devel/setup.bash
+```
 
 # 4. Apply third-party modules
 
