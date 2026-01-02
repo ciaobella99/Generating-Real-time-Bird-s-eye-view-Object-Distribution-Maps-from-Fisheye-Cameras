@@ -187,3 +187,7 @@ cd ~/carla-ros-bridge/catkin_ws
 source devel/setup.bash
 rosrun carla_ros_bridge bev.py
 ```
+
+https://github.com/user-attachments/assets/9cf41eb0-f231-441d-8e81-194e790fe016
+
+
