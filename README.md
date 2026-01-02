@@ -75,3 +75,35 @@ This project builds upon and references the following open-source resources:
 The tracking and perception pipeline in this work is adapted and extended for
 fisheye-based BEV projection and distance estimation.
 
+### Installation
+```bash
+# 1. Clone the repository
+git clone [https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git](https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git)
+
+# 2. Install Python dependencies (ensure CARLA version matches)
+pip install carla==0.9.13
+pip install -r requirements.txt
+
+# 3. Build ROS workspace
+catkin_make
+source devel/setup.bash
+
+# 4. Apply third-party modules
+
+This project relies on the following third-party components, which must be set up separately:
+
+YOLOv7 + DeepSORT Integration
+Download the repository from:
+https://github.com/MuhammadMoinFaisal/YOLOv7-DeepSORT-Object-Tracking
+
+Follow the instructions provided in the official repository to configure the
+detection and tracking pipeline.
+
+CARLA Fisheye Camera Support
+Apply the official CARLA fisheye camera patch according to the following pull request:
+https://github.com/carla-simulator/carla/pull/3755
+
+Please follow the modification details and build instructions described in the
+pull request to enable fisheye camera sensors in CARLA.
+
+
