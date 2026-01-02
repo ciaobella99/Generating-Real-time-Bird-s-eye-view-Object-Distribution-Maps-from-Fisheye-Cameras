@@ -180,7 +180,7 @@ source devel/setup.bash
 rosrun carla_ros_bridge ground_truth_bev.py   _target_ids:="162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191"   _rate:=10   _window_size:=25   _scale:=50
 
 ```
-**Terminal : Open up BEV**
+**Terminal 8: Open up BEV**
 ```bash
 conda activate travisscott
 cd ~/carla-ros-bridge/catkin_ws
