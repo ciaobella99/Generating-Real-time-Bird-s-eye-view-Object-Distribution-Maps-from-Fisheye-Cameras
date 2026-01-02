@@ -57,3 +57,21 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 * ROS Noetic
 * **CARLA Simulator 0.9.13**
 * Python 3.8+ & PyTorch (CUDA supported)
+
+### Third-Party References
+
+This project builds upon and references the following open-source resources:
+
+- **YOLOv7 + DeepSORT Integration**  
+  Repository: https://github.com/MuhammadMoinFaisal/YOLOv7-DeepSORT-Object-Tracking  
+  Description: An open-source implementation integrating YOLOv7 for object detection
+  and DeepSORT for multi-object tracking.
+
+- **CARLA Fisheye Camera Support (Official Patch)**  
+  Repository: https://github.com/carla-simulator/carla/pull/3755  
+  Description: Official CARLA simulator pull request enabling fisheye camera sensor
+  support.
+
+The tracking and perception pipeline in this work is adapted and extended for
+fisheye-based BEV projection and distance estimation.
+
