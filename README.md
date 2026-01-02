@@ -147,7 +147,7 @@ roslaunch carla_spawn_objects carla_spawn_objects.launch
 # Launch Manual Control (Optional)
 roslaunch carla_manual_control carla_manual_control.launch
 ```
-###Step 2: Launch Perception & Distance Correction
+### Step 2: Launch Perception & Distance Correction
 
 **Terminal 4: Start GPU Detection Core**
 ```bash
