@@ -77,23 +77,23 @@ fisheye-based BEV projection and distance estimation.
 
 ### Installation
 
-# 1. Clone the repository
+### 1. Clone the repository
 ```bash
 git clone [https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git](https://github.com/ciaobella99/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras.git)
 ```
-# 2. Install Python dependencies (ensure CARLA version matches)
+### 2. Install Python dependencies (ensure CARLA version matches)
 ```bash
 pip install carla==0.9.13
 pip install -r requirements.txt
 ```
 
-# 3. Build ROS workspace
+### 3. Build ROS workspace
 ```bash
 catkin_make
 source devel/setup.bash
 ```
 
-# 4. Apply third-party modules
+### 4. Apply third-party modules
 
 This project relies on the following third-party components, which must be set up separately:
 
