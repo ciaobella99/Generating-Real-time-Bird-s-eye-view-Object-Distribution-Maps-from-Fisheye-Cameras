@@ -113,4 +113,64 @@ https://github.com/carla-simulator/carla/pull/3755
 Please follow the modification details and build instructions described in the
 pull request to enable fisheye camera sensors in CARLA.
 
+## V Execution Workflow
+
+This system requires multiple terminals and specific Conda environments.
+
+### Step 1: Initialize CARLA Environment
+
+**Terminal 1: Start CARLA Server**
+```bash
+conda activate travisscott
+cd ~/carla/Dist/CARLA_Shipping_0.9.13-dirty/LinuxNoEditor
+./CarlaUE4.sh Town01 -carla-server -fps=10 -quality-level=high -RenderOffScreen
+```
+**Terminal 2: Launch ROS Bridge**
+
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws 
+export LD_PRELOAD=/usr/lib/x86_64-linux-gnu/libffi.so.7
+source /opt/ros/noetic/setup.bash
+source ~/carla-ros-bridge/catkin_ws/devel/setup.bash
+roslaunch carla_ros_bridge carla_ros_bridge.launch town:=Town05
+```
+**Terminal 3: Spawn Objects & Control**
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws
+source ~/carla-ros-bridge/catkin_ws/devel/setup.bash
+
+# Launch Object Spawner
+roslaunch carla_spawn_objects carla_spawn_objects.launch 
+
+# Launch Manual Control (Optional)
+roslaunch carla_manual_control carla_manual_control.launch
+```
+###Step 2: Launch Perception & Distance Correction
+
+**Terminal 4: Start GPU Detection Core**
+```bash
+conda activate carlayolo
+cd ~/carla-ros-bridge/catkin_ws
+source devel/setup.bash
+./launch_gpu.sh
+```
+**Terminal 5: Object Spawning Script**
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws
+source devel/setup.bash
+rosrun carla_ros_bridge spawn_object.py
+```
+**Terminal 6: Distance Correction System**
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws
+source devel/setup.bash
+rosrun obj_dist_ros distance_correction.py
+```
+
+
+
 
