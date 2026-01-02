@@ -49,7 +49,7 @@ The system is integrated using **ROS1 (Robot Operating System)** to manage real-
 
 ---
 
-## IV Getting Started
+## IV. Getting Started
 
 ### Prerequisites
 * **GPU**: NVIDIA GeForce **GTX 4090** (24GB VRAM)
@@ -113,7 +113,7 @@ https://github.com/carla-simulator/carla/pull/3755
 Please follow the modification details and build instructions described in the
 pull request to enable fisheye camera sensors in CARLA.
 
-## V Execution Workflow
+## V. Execution Workflow
 
 This system requires multiple terminals and specific Conda environments.
 
@@ -170,7 +170,20 @@ cd ~/carla-ros-bridge/catkin_ws
 source devel/setup.bash
 rosrun obj_dist_ros distance_correction.py
 ```
+### Step 3: Open up the BEV
 
+**Terminal 7: Open up BEV ground truth**
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws
+source devel/setup.bash
+rosrun carla_ros_bridge ground_truth_bev.py   _target_ids:="162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191"   _rate:=10   _window_size:=25   _scale:=50
 
-
-
+```
+**Terminal : Open up BEV**
+```bash
+conda activate travisscott
+cd ~/carla-ros-bridge/catkin_ws
+source devel/setup.bash
+rosrun carla_ros_bridge bev.py
+```
