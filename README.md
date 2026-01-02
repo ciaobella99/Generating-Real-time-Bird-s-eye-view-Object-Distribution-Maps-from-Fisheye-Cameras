@@ -11,7 +11,7 @@ This repository implements an omnidirectional perception system using **three fi
     <img src="https://github.com/user-attachments/assets/a546db4e-8706-4e36-bcd4-2eb20fd3aabe" width="700" alt="Watch the Full Video">
   </a>
   <br>
-  <strong>點擊上方圖片觀看完整實驗影片 (Click to watch the full experiment on YouTube)</strong>
+  <strong> (Click to watch the full experiment on YouTube)</strong>
 </p>
 
 > [!TIP]
