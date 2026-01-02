@@ -5,7 +5,17 @@ This repository implements an omnidirectional perception system using **three fi
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/9279e49f-aa7a-4886-a650-28f43cd52902" width="400"> | <img src="https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf" width="400"> |
 
+### Full Experiment Video
+<p align="center">
+  <a href="[你的YouTube影片網址](https://youtu.be/liI3Cj-vCn4)">
+    <img src="https://img.youtube.com/vi/Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras/maxresdefault.jpg" width="700" alt="Watch the Full Video">
+  </a>
+  <br>
+  <strong>點擊上方圖片觀看完整實驗影片 (Click to watch the full experiment on YouTube)</strong>
+</p>
 
+> [!TIP]
+> The video demonstrates the complete workflow: 360° fisheye synchronization, YOLOv7 detection, and real-time occupancy grid mapping on an **NVIDIA RTX 4090**.
 ---
 
 ## I.Key Contributions
@@ -185,8 +195,3 @@ cd ~/carla-ros-bridge/catkin_ws
 source devel/setup.bash
 rosrun carla_ros_bridge bev.py
 ```
-
-
-![Real-time Demo (GIF)](https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf)
-
-
