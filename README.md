@@ -5,9 +5,6 @@ This repository implements an omnidirectional perception system using **three fi
 | :---: | :---: |
 | <img src="https://github.com/user-attachments/assets/9279e49f-aa7a-4886-a650-28f43cd52902" width="400"> | <img src="https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf" width="400"> |
 
-  <br>
-  <em>Figure 1: 360° Object Detection and Grid Map Visualization in CARLA 0.9.13,Front Cam </em>
-</p>
 
 ---
 
