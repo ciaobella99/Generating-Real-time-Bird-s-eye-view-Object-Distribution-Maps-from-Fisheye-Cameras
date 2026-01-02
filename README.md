@@ -195,10 +195,3 @@ cd ~/carla-ros-bridge/catkin_ws
 source devel/setup.bash
 rosrun carla_ros_bridge bev.py
 ```
-
-
-![messageImage_1767348870776](https://github.com/user-attachments/assets/a546db4e-8706-4e36-bcd4-2eb20fd3aabe)
-
-
-
-
