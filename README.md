@@ -1,8 +1,9 @@
 # Generating-Real-time-Bird-s-eye-view-Object-Distribution-Maps-from-Fisheye-Cameras
 This repository implements an omnidirectional perception system using **three fisheye cameras**. By performing real-time distortion correction, object detection (YOLOv7), and geometric distance estimation, the system generates a unified 360-degree top-down occupancy map. This research provides a high-precision, low-cost sensing alternative for autonomous mobile platforms in indoor environments.
 
-<p align="center">
-  <img width="1964" height="1296" alt="Screenshot from 2025-06-30 16-24-42" src="https://github.com/user-attachments/assets/9279e49f-aa7a-4886-a650-28f43cd52902" />
+|  360° Object Detection and Grid Map Visualization in CARLA 0.9.13,Front Cam | Real-time Detection Demo  |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/9279e49f-aa7a-4886-a650-28f43cd52902" width="400"> | <img src="https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf" width="400"> |
 
   <br>
   <em>Figure 1: 360° Object Detection and Grid Map Visualization in CARLA 0.9.13,Front Cam </em>
@@ -189,6 +190,6 @@ rosrun carla_ros_bridge bev.py
 ```
 
 
-![Untitled ‑ Made with FlexClip](https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf)
+![Real-time Demo (GIF)](https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf)
 
 
