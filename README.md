@@ -7,15 +7,15 @@ This repository implements an omnidirectional perception system using **three fi
 
 ### Full Experiment Video
 <p align="center">
-  <a href="[你的YouTube影片網址](https://youtu.be/liI3Cj-vCn4)">
-    <img src="<img width="2459" height="1258" alt="image" src="https://github.com/user-attachments/assets/a546db4e-8706-4e36-bcd4-2eb20fd3aabe" width="700" alt="Watch the Full Video">
+  <a href="https://youtu.be/liI3Cj-vCn4">
+    <img src="https://github.com/user-attachments/assets/a546db4e-8706-4e36-bcd4-2eb20fd3aabe" width="700" alt="Watch the Full Video">
   </a>
   <br>
   <strong>點擊上方圖片觀看完整實驗影片 (Click to watch the full experiment on YouTube)</strong>
 </p>
 
 > [!TIP]
-> The video demonstrates the complete workflow: 360° fisheye synchronization, YOLOv7 detection, and real-time occupancy grid mapping on an **NVIDIA RTX 4090**.
+> The video demonstrates the complete workflow: 360° fisheye synchronization, YOLOv7 detection, and real-time occupancy grid mapping on an **NVIDIA GeForce GTX 4090**.
 ---
 
 ## I.Key Contributions
