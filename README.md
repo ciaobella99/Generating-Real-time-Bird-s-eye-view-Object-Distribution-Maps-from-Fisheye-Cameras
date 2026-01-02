@@ -188,6 +188,7 @@ source devel/setup.bash
 rosrun carla_ros_bridge bev.py
 ```
 
-https://github.com/user-attachments/assets/9cf41eb0-f231-441d-8e81-194e790fe016
+
+![Untitled ‑ Made with FlexClip](https://github.com/user-attachments/assets/8bd692f8-485d-4d55-b643-f8d5cddbfebf)
 
 
